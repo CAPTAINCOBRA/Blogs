@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="/css/style-signin.css" />
+
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body
+    class="img js-fullheight"
+    style="
+      background-image: url(/images/bg.jpg);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      position: inherit;
+      padding: 0;
+      margin-top: 0;
+    "
+  >
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Login</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="login-wrap p-0">
+              <!-- <h3 class="mb-4 text-center">Have an account?</h3> -->
+              <form action="/auth/signin" method="POST" class="signin-form">
+              <form class="signin-form">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Username"
+                    required
+                    value="<%= user.email %>"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    id="password-field"
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    required
+                    value="<%= user.password %>"
+                    name="password"
+                  />
+                  <span
+                    toggle="#password-field"
+                    class="fa fa-fw fa-eye field-icon toggle-password"
+                  ></span>
+                </div>
+                <div class="form-group">
+                  <button
+                    type="submit"
+                    class="form-control btn btn-primary submit px-3"
+                    id="submitButton"
+                  >
+                    Sign In
+                  </button>
+                  <hr style="color: white; box-shadow: 0 0 10px 1px white" />
+                  <div class="display-5" style="text-align: center">OR</div>
+                  <a
+                    type="button"
+                    class="form-control btn btn-primary submit py-auto justify-content-center"
+                    style="padding: 10px"
+                    href="/auth/checkSignup"
+                  >
+                    Sign Up
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main-signin.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script>
+      $('#submitButton').on('click',function(){
+        $.ajax({
+              url: "http://localhost:5000/auth/signin",
+              type: 'POST',
+              contentType: 'application/json',
+              headers: {
+                        "Authorization": "Bearer " + $('#tokenField').val()
+                    },
+              async: false
+                })})
+    </script> -->
+
+    <!-- redirect to blogs page after recieving token from server -->
+    <!-- <script>
+      $("#submitButton").on("click", function () {
+        $.ajax({
+          url: "http://localhost:5000/auth/signin",
+          type: "POST",
+          contentType: "application/json",
+          // headers: {
+          //   Authorization: "Bearer " + $("#tokenField").val(),
+          // },
+          async: false,
+          data: JSON.stringify({
+            email: $("#email").val(),
+            password: $("#password").val(),
+          }),
+        })
+          .done(function (data) {
+            console.log(data);
+            window.location.href = "/";
+          })
+          .fail(function (data) {
+            console.log(data);
+          });
+        // window.location.href = "/blogs";
+      });
+    </script> -->
+    <!-- <script>
+      $(".submit").on("click", function (event) {
+        event.preventDefault();
+        fetch({
+          url: "http://localhost:5000/auth/signin",
+          type: "POST",
+          contentType: "application/json",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          // async: false,
+          // data: JSON.stringify({
+          //   email: $("#email").val(),
+          //   password: $("#password").val(),
+          // }),
+          body: JSON.stringify({
+            email: $("#email").val(),
+            password: $("#password-field").val(),
+          }),
+        })
+          .then((response) => {
+            if (response.status === 200) {
+              return response.json();
+            } else {
+              throw new Error("Something went wrong");
+            }
+          })
+          .then((data) => {
+            console.log(data);
+            window.location.href = "/";
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+        // window.location.href = "/blogs";
+      });
+    </script> -->
+  </body>
+</html>

@@ -26,7 +26,14 @@
       >
         Blog Articles
       </h1>
-      <a href="/blogs/new" class="btn btn-success">New Blog</a>
+      <a
+        href="/auth/signout"
+        class="btn btn-warning float-right justify-content-right"
+        style="float: right"
+        >Log out</a
+      >
+
+      <a href="/blogs/new" class="btn btn-success" id="newBlog">New Blog</a>
 
       <% blogs.forEach(blog => { %>
 
@@ -61,5 +68,18 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- <script>
+      $('#newBlog').on('click',function(){
+        $.ajax({
+              url: "http://localhost:5000/auth/signin",
+              type: 'POST',
+              contentType: 'application/json',
+              headers: {
+                        "Authorization": "Bearer " + $('#tokenField').val()
+                    },
+              async: false
+                })})
+    </script> -->
   </body>
 </html>

@@ -4,6 +4,7 @@ const slugify = require("slugify");
 const { JSDOM } = require("jsdom");
 const createDomPurify = require("dompurify");
 const dompurify = createDomPurify(new JSDOM().window);
+const { ObjectId } = mongoose.Schema;
 
 const blogSchema = new mongoose.Schema({
   title: {
@@ -29,6 +30,10 @@ const blogSchema = new mongoose.Schema({
   sanitizedHtml: {
     type: String,
     required: true,
+  },
+  user: {
+    type: ObjectId,
+    ref: "User",
   },
 });
 

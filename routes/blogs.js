@@ -1,9 +1,13 @@
 const express = require("express");
+const { isSignedIn, isAuthenticated } = require("../controllers/auth");
 const router = express.Router();
 const Blog = require("../models/blog");
 
 //Open a new Blog page. On submit, we'll create a new blog and be redirected
-router.get("/new", async (req, res) => {
+router.get("/new", isSignedIn, isAuthenticated, async (req, res) => {
+  // if (err.name === "UnauthorizedError") {
+  //   res.redirect("/auth/checkSignin");
+  // }
   res.render("blogs/new", { blog: new Blog() });
 });
 
