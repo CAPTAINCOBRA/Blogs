@@ -6,6 +6,8 @@ const createDomPurify = require("dompurify");
 const dompurify = createDomPurify(new JSDOM().window);
 const { ObjectId } = mongoose.Schema;
 
+const User = require("./user");
+
 const blogSchema = new mongoose.Schema({
   title: {
     type: String,
@@ -31,10 +33,20 @@ const blogSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  user: {
+  userId: {
     type: ObjectId,
     ref: "User",
   },
+  user: {
+    type: Object,
+    ref: "User",
+  },
+  comments: [
+    {
+      type: ObjectId,
+      ref: "Comment",
+    },
+  ],
 });
 
 blogSchema.pre("validate", function (next) {

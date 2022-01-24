@@ -17,12 +17,16 @@
     <title>Blog</title>
   </head>
   <body>
+    <%- include('../components/_header') %>
     <div class="container">
       <h1 class="mb-4">Edit Blog</h1>
 
       <form method="POST" action="/blogs/putta/<%= blog.id %>?_method=PUT">
         <%- include('_form_fields') %>
       </form>
+    </div>
+    <div class="" style="width: 100%; margin-top: 100px">
+      <%- include('_footer') %>
     </div>
   </body>
 </html>

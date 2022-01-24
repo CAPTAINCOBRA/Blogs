@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
+    <link rel="stylesheet" href="/css/index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,40 +14,73 @@
     />
   </head>
   <body>
-    <div class="container">
+    <script>
+      // parse user from cookie
+      // const user = JSON.parse(
+      //   document.cookie.replace(
+      //     /(?:(?:^|.*;\s*)user\s*\=\s*([^;]*).*$)|^.*$/,
+      //     "$1"
+      //   )
+      // );
+      // parse user from localStorage
+      // const user = JSON.parse(localStorage.getItem("user"));
+      // console.log(res.profile);
+      // console.log("req");
+      // console.log(req);
+      // console.log(res);
+      // console.log("USER FROM COOKIE IS = " + user);
+    </script>
+    <!-- bg-dark -->
+    <nav
+      class="navbar navbar-dark container-fluid sticky-top"
+      style="background-color: #0a4275"
+    >
+      <H5 class="navbar-brand">Welcome <%= user?.name %></H5>
+      <a
+        href="/auth/signout"
+        class="btn btn-warning float-right justify-content-right navbar-brand text-black"
+        style="float: right; color: black"
+        >Log out</a
+      >
+    </nav>
+
+    <div class="container mt-4">
       <h1
-        class="
-          mb-4
-          nav
-          navbar navbar-light
-          bg-light
-          display-3
-          justify-content-center
-        "
+        class="mb-4 nav navbar navbar-light bg-light display-3 justify-content-center"
       >
         Blog Articles
       </h1>
-      <a
-        href="/auth/signout"
-        class="btn btn-warning float-right justify-content-right"
-        style="float: right"
-        >Log out</a
-      >
 
+      <!-- <H5>Token - <%= token && token %></H5> -->
       <a href="/blogs/new" class="btn btn-success" id="newBlog">New Blog</a>
-
+      <!-- <a class="btn btn-success" id="newBlog">New Blog</a> -->
       <% blogs.forEach(blog => { %>
 
-      <div class="card mt-4">
+      <div id="cardy" class="card mt-4">
+        <div class="portfolio-image-container">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+          />
+          <div class="portfolio-details">
+            <p>Write here basic details about the project.</p>
+          </div>
+        </div>
         <div class="card-body">
           <h1 class="card-title display-5"><%= blog.title %></h1>
           <div class="card-subtitle text-muted mb-2">
             <%= blog.createdAt.toLocaleDateString() %>
           </div>
+          <div class="card-subtitle text-muted mb-2">
+            <a href="/user/<%= blog?.user?._id %> " style="color: inherit"
+              ><%= (blog?.user) ? blog.user.name : 'Admin Staff' %></a
+            >
+          </div>
           <div class="card-text mb-2"><%= blog.description %></div>
           <a href="/blogs/<%= blog.slug %> " class="btn btn-primary"
             >Read More</a
           >
+
+          <% if (blog?.user?._id === user?._id || user?.role === 1) { %>
           <a href="/blogs/edit/<%= blog.id %> " class="btn btn-secondary"
             >Edit</a
           >
@@ -57,12 +91,13 @@
           >
             <button type="submit" class="btn btn-danger">Delete</button>
           </form>
+          <% } %>
         </div>
       </div>
 
       <% }) %>
     </div>
-
+    <div style="margin-top: 50px"><%- include('_footer') %></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -80,6 +115,50 @@
                     },
               async: false
                 })})
+    </script> -->
+    <!-- <script>
+      const newBl = document.getElementById("newBlog");
+      newBl.addEventListener("click", function (e) {
+        e.preventDefault();
+        fetch("http://localhost:5000/blogs/new")
+          .then((res) => {
+            console.log(res);
+            return res.json();
+          })
+          .then((data) => {
+            console.log(data);
+          });
+      });
+    </script> -->
+    <!-- <script>
+      console.log("*******" + "Bearer <%-token%>" + "*******");
+      const newBl = document.getElementById("newBlog");
+      newBl.addEventListener("click", function (e) {
+        e.preventDefault();
+        fetch("http://localhost:5000/blogs/new", {
+          method: "GET",
+          mode: "cors",
+          credentials: "same-origin",
+          headers: {
+            "Content-Type": "application/json",
+            // "Content-Type": "HTML",
+            Authorization: `Bearer <%-token%>`,
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+            withCredentials: true,
+          },
+          async: false,
+        });
+        // .then((res) => {
+        //   // console.log(res);
+        //   // return res.json();
+        //   // window.location.href = res.url;
+        //   // window.location.Authorization = `Bearer <%-token%>`;
+        //   // window.location.href = "/blogs/new";
+        //   setTimeout(function () {
+        //     window.location.href = "/blogs/new";
+        //   }, 3333);
+        // })
+      });
     </script> -->
   </body>
 </html>

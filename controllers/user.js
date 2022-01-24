@@ -1,7 +1,9 @@
 const Blog = require("../models/blog");
 const User = require("../models/user");
+const logger = require("../myLogger");
 
 exports.getUserById = (req, res, next, id) => {
+  logger.info("LOG: getUserById Middleware");
   User.findById(id).exec((err, user) => {
     if (err || !user) {
       return res.status(400).json({
@@ -14,14 +16,42 @@ exports.getUserById = (req, res, next, id) => {
   });
 };
 
-exports.getUser = (req, res) => {
+exports.getUser = async (req, res) => {
+  logger.info("LOG: getUser Controller");
   var userIdI = req.params.userId;
   console.log("The userId is - ", userIdI);
   //TODO: get back here for password
-  return res.json(req.profile);
+  // return res.json(req.profile);
+  // var user = JSON.parse(
+  //   decodeURIComponent(req.cookies.user) //Using cookie parser now
+  // );
+  // const blogs = await Blog.find().sort({ createdAt: "desc" });
+  // all blogs of the user
+  //req.profile will contain the blogger profile user
+  // decode and json parse of reqcookies will contain the visitor user
+  logger.info("EKAN:" + req.profile._id);
+  logger.info("EKAN:" + req.cookies);
+  var visitor = JSON.parse(decodeURIComponent(req.cookies.user));
+  // const blogs = await Blog.find({ userId: req.profile._id });
+  const blogs = await Blog.find({ userId: req.profile._id }).sort({
+    createdAt: "desc",
+  });
+  // logger.info(blogs);
+  // logger.log({
+  //   level: "info",
+  //   message: blogs,
+  // });
+  logger.info("EKAN:" + req.profile);
+  // res.render("user/profile", { user: req.profile, blogs: req.profile.blogs });
+  res.render("user/profile", {
+    user: req.profile,
+    blogs: blogs,
+    visitor: visitor.user,
+  });
 };
 
 exports.updateUser = (req, res) => {
+  logger.info("LOG: updateUser Controller");
   User.findByIdAndUpdate(
     { _id: req.profile._id },
     { $set: req.body },
@@ -38,6 +68,7 @@ exports.updateUser = (req, res) => {
 };
 
 exports.userBlogsList = (req, res) => {
+  logger.info("LOG: userBlogsList Controller");
   //We find user by reference of the model Blog
   Blog.find({ user: req.profile._id })
     .populate("user", "_id name")
@@ -54,42 +85,8 @@ exports.userBlogsList = (req, res) => {
   //In populatre, we put the model we want to update and the fields we want to bring in.
 };
 
-//middleware
-// exports.pushArticleInBlogList = (req, res, next) => {
-//   let bogs = [];
-//   req.body.order.products.forEach((product) => {
-//     purchases.push({
-//       //Creating and pushing an object here
-//       _id: product._id,
-//       name: product.name,
-//       description: product.description,
-//       category: product.category,
-//       quantity: product.quantity,
-//       amount: req.body.order.amount,
-//       transaction_id: req.body.order.transaction_id,
-//     });
-//   });
-
-//   //Store this in DB
-//   //Since everything is in this User
-//   //Below method parameters found in docs
-//   User.findOneAndUpdate(
-//     //We use findOneAndUpdate is used so that previous record is not over written
-//     { _id: req.profile._id },
-//     { $push: { purchases: purchases } },
-//     { new: true }, //send back the new object from db and not the old one
-//     (err, purchases) => {
-//       if (err) {
-//         return res.status(400).json({
-//           error: "Unable to purchase list",
-//         });
-//       }
-//       next();
-//     }
-//   );
-// };
-
 exports.getAllUsers = (req, res) => {
+  logger.info("LOG: getAllUsers Controller");
   User.find((err, users) => {
     if (err || !users) {
       return res.status(400).json({

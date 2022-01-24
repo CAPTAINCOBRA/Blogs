@@ -52,6 +52,4 @@ router.get("/checkSignup", (req, res) => {
   res.render("auth/signup", { user: new User() });
 });
 
-router.post("/createSession", createSession);
-
 module.exports = router;

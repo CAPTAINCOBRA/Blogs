@@ -1,6 +1,14 @@
 /.env
 /node_modules
 
+/logs/WithBearer.json
+/logs/WithoutBearer.json
+/logs/logas.log
+
+garbage.js 
+/garbage.js 
+
+
 # testing
 /coverage
 

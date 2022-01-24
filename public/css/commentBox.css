@@ -1,0 +1,11 @@
+.link-muted {
+  color: #aaa;
+}
+.link-muted:hover {
+  color: #1266f1;
+}
+
+#comment-container {
+  position: relative;
+  margin-left: 0px;
+}

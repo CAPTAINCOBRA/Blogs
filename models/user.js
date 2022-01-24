@@ -37,11 +37,17 @@ var userSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
-    // blogs: {
-    //   type: Array,
-    //   default: [],
-
-    // }
+    blogs: {
+      type: Array,
+      default: [],
+      ref: "Blog",
+    },
+    comments: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Comment",
+      },
+    ],
   },
   {
     timestamps: true,

@@ -18,7 +18,8 @@ const router = express.Router();
 
 router.param("userId", getUserById);
 
-router.get("/:userId", isSignedIn, isAuthenticated, getUser);
+// router.get("/:userId", isSignedIn, isAuthenticated, getUser);
+router.get("/:userId", isSignedIn, getUser);
 router.put("/:userId", isSignedIn, isAuthenticated, updateUser);
 
 router.put("/allBlogs/:userId", isSignedIn, isAuthenticated, userBlogsList);
