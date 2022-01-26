@@ -311,3 +311,26 @@
 //     res.redirect("/auth/checkSignin");
 //   }
 // });
+
+// Add event listener to the like button
+likeBtn.addEventListener("click", () => {
+  // Get the current number of likes
+  const currentLikes = parseInt(likeCount.innerText);
+  // Add one to the current number of likes
+  likeCount.innerText = currentLikes + 1;
+
+  // call the server to update likes count in the database for this blog post id (blog.id) and user id (user.id) and set the likeBtn to disabled so that the user cannot like the same blog post again and again
+  fetch("/blogs/like/<%= blog.id %>?userId=<%= user.id %>", {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "X-CSRF-TOKEN": "<%= csrfToken %>",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      likeBtn.disabled = true;
+      dislikeBtn.disabled = true;
+    })
+    .catch((err) => console.log(err));
+});

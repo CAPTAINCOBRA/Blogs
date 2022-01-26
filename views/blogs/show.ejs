@@ -57,7 +57,52 @@
       <% } %>
     </div>
 
-    <div class="container mt-4"><%- blog.sanitizedHtml %></div>
+    <div id="blogText" class="container mt-4"><%- blog.sanitizedHtml %></div>
+
+    <!-- <hr class="my-0 mx-5" />  -->
+    <% var count = blog.likes %> <% console.log("count: " + count) %>
+    <div class="like-tray container">
+      <div class="inner-tray">
+        <!-- <a href="/blogs/<%= blog.id %>/like_toggle?_method=POST">
+          <i id="likeBtn" class="far fa-thumbs-up icon"></i
+        ></a> -->
+        <!-- <a href="/blogs/<%= blog.id %>/like_toggle?_method=POST"> -->
+        <a href="javascript:void(0);" class="tweet icon-title optionCont">
+          <i
+            id="likeBtn"
+            class="far fa-thumbs-up icon"
+            style="cursor: pointer"
+          ></i>
+          <!-- </a> -->
+          <p class="icon-title">
+            <span id="likeval"> <%= blog.likes %> </span> Likes
+          </p></a
+        >
+        <!-- <a href=""><i id="dislikeBtn" class="far fa-thumbs-down icon"></i></a> -->
+        <!-- <i
+          id="dislikeBtn"
+          class="far fa-thumbs-down icon"
+          style="cursor: pointer"
+        ></i>
+        <p class="icon-title">Dislike</p> -->
+        <!-- comments icon -->
+        <a href="#commentBox" class="tweet icon-title optionCont">
+          <i class="far fa-comment icon"></i>
+          <p class="icon-title"><%= blog.comments.length %> Comments</p></a
+        >
+        <!-- Twitter icon -->
+        <a href="" class="tweet icon-title" id="tweet">
+          <i class="fab fa-twitter icon"></i>
+          <p class="icon-title">Tweet</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- <hr class="my-0 mx-5" /> -->
+    <!-- <i class="far fa-heart mx-auto" style="font-size: 30px; color: #ff0000; "></i> -->
+    <!-- <br /> -->
+    <!-- <br /> -->
+    <!-- <br /> -->
 
     <!-- Comment  -->
     <%- include('../components/_commentBox') %>
@@ -109,6 +154,8 @@
     </div>
     <!-- Delete Modal ends -->
 
+    <% console.log("Ha" + blog.isLiked) %>
+
     <section class="footer page-footer">
       <div class="footerContainer" style="margin-top: 50px">
         <%- include('../blogs/_footer') %>
@@ -121,5 +168,93 @@
       crossorigin="anonymous"
     ></script>
     <script src="/js/show.js"></script>
+    <!-- Tweet Script -->
+    <script>
+      const tweetBtn = document.getElementById("tweet");
+      tweetBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        const tweet = document.getElementById("tweet");
+        // const url = tweet.href;
+        const url = "http://localhost:5000/blogs/<%= blog.slug %>";
+        // const text = tweet.innerText;
+        // const blogText = document.getElementById("blogText");
+        // const blogTextString = blogText.innerText;
+        // const text = blogTextString;
+        const text = "<%= blog.title %>";
+        const hashtags = "Blog";
+        // const via = "Twitter for Iphone";
+        // const related = "Billy";
+        const lang = "en";
+        const urlText =
+          "https://twitter.com/intent/tweet?text=" +
+          encodeURIComponent(text) +
+          "&url=" +
+          encodeURIComponent(url) +
+          "&hashtags=" +
+          hashtags +
+          // "&via=" +
+          // via +
+          // "&related=" +
+          // related +
+          "&lang=" +
+          lang;
+        window.open(urlText, "_blank");
+      });
+    </script>
+    <script>
+      if(<%= blog.isLiked %>){
+        document.getElementById("likeBtn").classList.add("fas");
+        document.getElementById("likeBtn").classList.remove("far");
+      } else{
+        document.getElementById("likeBtn").classList.add("far");
+        document.getElementById("likeBtn").classList.remove("fas");
+      }
+      // like button functionality
+      const likeBtn = document.getElementById("likeBtn");
+      likeBtn.addEventListener("click", function () {
+
+        var likeStatus = false;
+        document.getElementById("likeBtn").classList.contains("far") ? likeStatus = true : likeStatus = false;
+
+        var likeval = document.getElementById("likeval");
+        var likevalNum = parseInt(likeval.innerHTML);
+        // var likevalNumNew = likevalNum + 1;
+
+        if(likeStatus){
+          likevalNum = likevalNum + 1;
+          // set likevalNum as new value
+          likeval.innerHTML = likevalNum;
+        }else {
+          likevalNum = likevalNum - 1;
+          // set likevalNum as new value
+          likeval.innerHTML = likevalNum;
+
+        }
+
+        likeBtn.classList.toggle("fas");
+        likeBtn.classList.toggle("far");
+        // likeBtn.classList.add("fas");
+        // likeBtn.classList.remove("far");
+        // dislikeBtn.classList.add("far");
+        // dislikeBtn.classList.remove("fas");
+
+        fetch("/blogs/<%= blog.id %>/like_toggle", {
+          method: "GET",
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+          });
+      });
+
+      // dislike button functionality
+      // const dislikeBtn = document.getElementById("dislikeBtn");
+      // dislikeBtn.addEventListener("click", function () {
+      //   dislikeBtn.classList.add("fas");
+      //   dislikeBtn.classList.remove("far");
+      //   likeBtn.classList.add("far");
+      //   likeBtn.classList.remove("fas");
+      // });
+    </script>
   </body>
 </html>

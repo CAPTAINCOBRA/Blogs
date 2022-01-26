@@ -6,3 +6,57 @@
   margin-top: 80vh;
   /* margin-top: 1000px; */
 }
+
+.like-tray {
+  /* position: absolute; */
+  /* bottom: 0px; */
+  /* width: 100%; */
+  /* margin-top: 60vh; */
+  margin-left: 1%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-top: 1px solid rgb(183 179 179);
+  border-bottom: 1px solid rgb(163 161 161);
+}
+
+.inner-tray {
+  display: flex;
+  width: 30%;
+  /* align-items: baseline; */
+  /* justify-content: center; */
+}
+.icon {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.like-tray .icon {
+  font-size: 1.5em;
+  /* color: #ff0000; */
+}
+
+.icon-title {
+  flex-grow: 1;
+}
+
+.tweet {
+  display: flex;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.optionCont {
+  color: inherit;
+}
+
+.tweet p {
+  color: black;
+}
+
+.tweet:hover {
+  background-color: rgb(180, 173, 173);
+}

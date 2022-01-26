@@ -9,3 +9,29 @@
   position: relative;
   margin-left: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
+/* smooth scroll */
+/* .smooth-scroll {
+  position: relative;
+  display: block;
+  margin-left: 0px;
+  padding: 0px;
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: inherit;
+}
+.smooth-scroll:hover {
+  color: #1266f1;
+}
+.smooth-scroll:focus {
+  outline: none;
+}
+.smooth-scroll:active {
+  outline: none;
+}
+.smooth-scroll:visited {
+  color: inherit;
+} */

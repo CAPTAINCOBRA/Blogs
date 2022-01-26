@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- <section style="background-color: #ad655f"> -->
-    <section>
+    <section id="commentBox">
       <div class="container my-5 py-5" id="comment-container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-12 col-lg-10">
@@ -19,13 +19,14 @@
               <div class="card-body">
                 <form action="/comments/<%= blog.id %>/comments?_method=POST" method="POST">
                   <div class="form-group">
-                    <label for="comment">Comment</label>
+                    <label for="comment">Comment</label> as <span class="blockquote-footer"> <%= user.name %> </span>
                     <textarea
                       class="form-control"
                       id="comment"
                       name="comment"
                       rows="3"
                       placeholder="Enter your comment here"
+                      required
                     ></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary mt-4">
@@ -36,7 +37,7 @@
 
                 <!-- //Individual Comment Here  -->
                 <% comments.forEach((comment) => { %> 
-                  <%- include('../components/_comment', {comment: comment, author: author}) %>
+                  <%- include('../components/_comment', {comment: comment, author: author, user: user}) %>
                 <% }) %>
               <!-- Individual Comment Ends -->
 

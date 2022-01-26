@@ -599,3 +599,943 @@
 {"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 15:04:50"}
 {"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 15:06:32"}
 {"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 15:06:47"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-24 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-24 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 16:43:25"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 16:43:49"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:22:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:24:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:25:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:29:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:29:11"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:33:05"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:33:53"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:34:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:34:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:35:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:35:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:35:28"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:35:51"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 17:47:08"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-24 17:47:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 17:47:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:09:57"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:10:00"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:10:02"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:10:10"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:10:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:10:16"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:17:38"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:17:41"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:17:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:23:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:24:01"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:35:38"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:37:20"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-24 18:41:22"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-24 18:41:30"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-24 18:41:37"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-24 18:41:37"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-24 18:41:37"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-24 18:41:37"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 18:41:37"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-24 18:41:37"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:41:39"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 18:41:55"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-24 18:41:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 18:41:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 19:19:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 19:40:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 19:40:35"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-24 21:13:19"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-24 21:13:19"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-24 21:14:52"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-24 21:14:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:35:25"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:35:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:35:49"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:35:59"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:36:15"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:36:22"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:36:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:36:49"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:37:00"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 21:41:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:33:00"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:33:03"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:33:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:33:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:34:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:34:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:35:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:35:29"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:35:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:35:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:35:43"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 22:35:52"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-24 22:35:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:35:52"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 22:36:21"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-24 22:36:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:36:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:38:28"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:43:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:45:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:46:04"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:51:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:51:38"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:51:47"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:52:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:52:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:53:24"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-24 22:57:12"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-24 22:57:12"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-24 22:57:12"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 22:57:12"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-24 22:57:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:57:18"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-24 22:57:31"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-24 22:57:31"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:57:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:57:57"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:58:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:58:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:58:46"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:59:26"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:59:37"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:59:45"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 22:59:53"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:00"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:05"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:00:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:15:54"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:15:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:16:16"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:16:25"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:17:03"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:17:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:18:24"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:18:37"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:18:48"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-24 23:22:53"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 10:06:00"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 10:06:01"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:06:16"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:06:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:06:52"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 10:07:19"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 10:07:34"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 10:07:35"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 10:07:35"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-25 10:07:35"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 10:07:35"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 10:07:35"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:07:41"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 10:07:57"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 10:07:57"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:07:57"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 10:09:51"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 10:09:51"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 10:34:04"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 10:34:04"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:34:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:49:28"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:49:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:50:04"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:50:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:54:15"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:54:48"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 10:55:30"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 11:02:47"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 11:02:47"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 11:02:47"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 11:03:10"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 11:04:29"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 11:04:56"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 11:04:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 11:04:56"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 11:33:02"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 11:33:02"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 11:33:02"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 12:52:25"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 12:52:25"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:02:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:02:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:24:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:25:24"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:26:00"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:36:39"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:36:44"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:38:04"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:38:04"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:38:04"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:38:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:39:10"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:39:10"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 13:39:11"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 13:39:11"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-25 13:39:11"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:39:11"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 13:39:11"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 13:39:14"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-25 13:39:14"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:39:14"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-25 13:39:14"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:39:50"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-25 13:39:50"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-25 13:39:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:39:50"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:39:59"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 13:39:59"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:39:59"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:41:01"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:43:19"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:43:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:43:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:44:00"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:44:06"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:47:06"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:47:06"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:47:06"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:47:06"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:47:38"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:47:40"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:47:40"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:55:13"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 13:55:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:55:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:57:21"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:57:25"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:57:25"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:57:32"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 13:57:37"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 13:57:37"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:58:26"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:58:26"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 13:58:26"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:59:53"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 13:59:53"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 14:00:19"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 14:00:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:00:53"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:06:28"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:06:28"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 14:15:00"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 14:15:00"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-25 14:15:00"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:15:00"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 14:15:00"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 14:15:05"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 14:15:34"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 14:15:34"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 14:15:34"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 14:15:34"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:15:34"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 14:15:34"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 14:15:36"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 14:15:36"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:15:36"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-25 14:15:36"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:15:55"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-25 14:15:55"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-25 14:15:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:15:55"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:19:04"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:19:04"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:19:48"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:19:48"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 14:24:06"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 14:24:06"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 14:24:07"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 14:24:07"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 14:24:07"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:24:07"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 14:24:07"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 14:24:09"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 14:24:09"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:24:09"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-25 14:24:09"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:24:18"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-25 14:24:18"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-25 14:24:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:24:18"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:25:04"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:25:04"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:25:57"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:25:57"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:26:06"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:26:06"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:26:06"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:26:06"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 14:26:34"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-25 14:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:26:38"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:26:38"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:26:38"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:26:45"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:26:45"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:26:46"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:26:58"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:26:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:26:58"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:52:33"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:52:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:52:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:54:36"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:54:42"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:54:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:54:42"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 14:54:56"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 14:54:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:54:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:55:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 14:56:02"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:26:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:26:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:26:33"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:26:33"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:26:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:26:33"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:26:34"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:26:59"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:26:59"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:26:59"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:27:02"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:27:02"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:27:02"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:33:16"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:33:16"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:33:16"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:33:17"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:33:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:33:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:33:31"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:33:51"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:34:21"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:34:35"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 15:34:35"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:34:35"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:36:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:11"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:14"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:14"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:17"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:17"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:17"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:17"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:18"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:18"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:18"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:18"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:31"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:33"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:37:37"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:37:37"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:37"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:37:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:51:32"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:51:36"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:51:36"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:51:36"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:51:38"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:51:42"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:51:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:51:42"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 15:51:43"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 15:51:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:51:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 15:51:44"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:40:43"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:40:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:40:44"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:40:44"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:40:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:40:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:43:15"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:43:19"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:43:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:43:19"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:43:20"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:43:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:43:20"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:43:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:44:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:45:02"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:09"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:46:11"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:46:11"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:11"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:46:12"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:46:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:12"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:46:12"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:46:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:46:13"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:46:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:46:14"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:46:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:46:15"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:58:52"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:58:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:58:52"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:58:52"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:58:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:58:52"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:58:53"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:58:53"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:58:53"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:58:53"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:58:53"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:58:53"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:59:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:59:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:59:32"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:59:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:59:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:59:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:59:46"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:59:53"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:59:56"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:59:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:59:56"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 16:59:56"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 16:59:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 16:59:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 17:00:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 17:00:54"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:24:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:24:20"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:24:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:24:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:25:58"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:26:13"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:26:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:26:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:27:01"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:27:01"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:27:01"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:27:02"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:27:02"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:27:02"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:27:03"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:27:07"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:27:07"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:27:07"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:27:07"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:27:07"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:27:08"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:29:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:31:50"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:31:52"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:31:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:31:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:32:33"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:32:36"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:32:36"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:32:36"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:33:46"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:37:41"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:37:44"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:37:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:37:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:36"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:38"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:38"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:38"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:40"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:52"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:52"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:38:55"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:38:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:38:55"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:41:27"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:41:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:41:28"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 18:41:30"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 18:41:42"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 18:41:43"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 18:41:43"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-25 18:41:43"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:41:43"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 18:41:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:41:46"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:41:49"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:41:49"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:41:49"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:41:51"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:41:51"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:41:51"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:41:51"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:41:51"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:41:51"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:42:13"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 18:42:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:42:13"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 18:42:17"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 18:42:27"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"610d5626f2c21c4ac0a00c6e","email":"superman@test.com","name":"Clark","role":1}},"metadata":{},"timestamp":"2022-01-25 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:42:29"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:42:42"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 18:42:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:42:42"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:42:51"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:42:51"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:42:51"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 18:42:58"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 18:42:58"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"610d5626f2c21c4ac0a00c6e","email":"superman@test.com","name":"Clark","role":1}},"metadata":{},"timestamp":"2022-01-25 18:42:58"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:42:58"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 18:42:58"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 18:43:05"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 18:43:12"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ea77795be28008a072d4d6","email":"batman@test.com","name":"Bruce Wayne","role":0}},"metadata":{},"timestamp":"2022-01-25 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:43:14"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:43:17"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 18:43:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:43:17"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 18:43:44"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-25 18:43:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 18:43:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 19:02:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:25:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:25:28"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:25:41"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:25:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:25:57"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:26:03"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:26:24"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:26:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:26:55"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:29:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:30:00"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:30:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:30:41"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:34:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:36:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:37:14"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:37:45"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:37:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:51:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:51:45"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:53:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:53:46"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:53:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 21:55:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:02:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:03:00"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 22:06:26"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 22:06:26"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ea77795be28008a072d4d6","email":"batman@test.com","name":"Bruce Wayne","role":0}},"metadata":{},"timestamp":"2022-01-25 22:06:26"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:06:26"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 22:06:26"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 22:06:34"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 22:06:41"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 22:06:42"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 22:06:42"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 22:06:42"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:06:42"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 22:06:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:06:46"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Edit Controller","metadata":{},"timestamp":"2022-01-25 22:08:16"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:08:23"}
+{"label":"server.js","level":"info","message":"LOG: Update(PUT) a Blog Controller","metadata":{},"timestamp":"2022-01-25 22:08:23"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-25 22:08:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:08:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:08:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:11:23"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-25 22:11:27"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-25 22:12:41"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 22:12:41"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 22:12:41"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 22:12:41"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:12:41"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 22:12:41"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:12:44"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:12:59"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:14:30"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:16:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:16:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:16:37"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:16:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:16:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:17:48"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:29:20"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 22:29:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:20"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:21"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:24"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:29:28"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 22:29:28"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:28"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:29:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 22:29:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:29:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:43:10"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:43:15"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:44:42"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 22:44:48"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 22:44:48"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:44:48"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:44:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:45:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:46:56"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:47:09"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:50:39"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Edit Controller","metadata":{},"timestamp":"2022-01-25 22:50:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 22:50:47"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:32:10"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 23:32:10"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:32:10"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:32:11"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 23:32:11"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:32:11"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:33:27"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:33:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 23:33:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:33:32"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:33:33"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 23:33:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:33:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:33:39"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:33:42"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 23:33:42"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:33:42"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:33:43"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-25 23:33:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-25 23:33:43"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-25 23:34:08"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-25 23:34:08"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-25 23:34:08"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-25 23:34:08"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-25 23:34:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 09:11:33"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 09:11:33"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 09:20:18"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 09:20:18"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 09:20:18"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 09:20:18"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 09:20:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 12:23:47"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 15:10:27"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 15:10:27"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 15:10:53"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 15:10:53"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 15:11:39"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 15:11:39"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:39:16"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 16:39:16"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:39:16"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-26 16:39:16"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:39:43"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-26 16:39:43"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-26 16:39:43"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:39:45"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:40:13"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 16:40:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:40:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:40:26"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 16:40:26"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:40:26"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:40:34"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:40:34"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:40:34"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-26 16:40:58"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-26 16:41:11"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 16:41:11"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:41:11"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ec04bf39bd9e1ed463c377","email":"arrow@test.com","name":"Oliver Queen","role":0}},"metadata":{},"timestamp":"2022-01-26 16:41:11"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:41:11"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 16:41:11"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:41:14"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:41:17"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:41:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:41:17"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:41:29"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 16:41:29"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:41:29"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-26 16:41:35"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-26 16:41:45"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 16:41:45"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:41:45"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ea77795be28008a072d4d6","email":"batman@test.com","name":"Bruce Wayne","role":0}},"metadata":{},"timestamp":"2022-01-26 16:41:45"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:41:45"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 16:41:45"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:41:47"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:41:50"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:41:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:41:50"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:41:58"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 16:41:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:41:58"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-26 16:42:36"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-26 16:43:01"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-26 16:43:13"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 16:43:13"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:43:13"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed27495d1368157840f446","email":"aquaman@test.com","name":"Arthur Curry","role":0}},"metadata":{},"timestamp":"2022-01-26 16:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 16:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:43:15"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:43:18"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:43:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:43:18"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:43:28"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 16:43:28"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:43:28"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-26 16:43:38"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-26 16:43:47"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 16:43:47"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:43:47"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"610d5626f2c21c4ac0a00c6e","email":"superman@test.com","name":"Clark","role":1}},"metadata":{},"timestamp":"2022-01-26 16:43:47"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:43:47"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 16:43:47"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:43:49"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:43:57"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 16:43:57"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:43:57"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:44:02"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:44:02"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:44:02"}
+{"label":"server.js","level":"info","message":"LOG: Signout Controller","metadata":{},"timestamp":"2022-01-26 16:44:09"}
+{"label":"server.js","level":"info","message":"LOG: Signin Controller","metadata":{},"timestamp":"2022-01-26 16:44:24"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 16:44:24"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:44:24"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 16:44:24"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:44:24"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 16:44:24"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:47:25"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 16:52:53"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:53:15"}
+{"label":"server.js","level":"info","message":"LOG: Delete(DELETE) a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:53:15"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 16:56:03"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 16:56:03"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 16:56:03"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:56:03"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 16:56:03"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 16:58:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 16:58:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 16:58:33"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 16:58:33"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 16:58:44"}
+{"label":"server.js","level":"info","message":"LOG: Delete(DELETE) a Blog Controller","metadata":{},"timestamp":"2022-01-26 16:58:44"}
+{"label":"server.js","level":"info","message":"LOG: Blog Deleted","metadata":{},"timestamp":"2022-01-26 16:58:44"}
+{"label":"server.js","level":"info","message":"LOG: Blog removed from User's blogs array","metadata":{},"timestamp":"2022-01-26 16:58:44"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 16:59:23"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 16:59:23"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:29:45"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:29:45"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:30:09"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:30:09"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 17:30:19"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 17:30:38"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 17:30:50"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:31:36"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:31:36"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:49:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 17:49:08"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 18:30:46"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 18:30:46"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 18:42:00"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:42:00"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:42:00"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:42:00"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 18:42:00"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 18:42:03"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:42:03"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:42:03"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:42:03"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 18:42:03"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:42:05"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:42:05"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:42:05"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-26 18:42:05"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-26 18:42:27"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-26 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:42:32"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 18:42:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:42:32"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:42:40"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 18:42:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:42:40"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: Delete(DELETE) a Blog Controller","metadata":{},"timestamp":"2022-01-26 18:43:12"}
+{"label":"server.js","level":"info","message":"LOG: removed likes from users ","metadata":{},"timestamp":"2022-01-26 18:43:13"}
+{"label":"server.js","level":"info","message":"LOG: removed comments from users ","metadata":{},"timestamp":"2022-01-26 18:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Blog Deleted","metadata":{},"timestamp":"2022-01-26 18:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Blog removed from User's blogs array","metadata":{},"timestamp":"2022-01-26 18:43:13"}
+{"label":"server.js","level":"info","message":"LOG: Comments deleted","metadata":{},"timestamp":"2022-01-26 18:43:13"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 18:44:52"}
+{"label":"server.js","level":"info","message":"LOG: SavingAndRedirecting a Blog Function","metadata":{},"timestamp":"2022-01-26 18:44:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:44:53"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:45:01"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 18:45:02"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:45:02"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:45:02"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:45:02"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 18:45:02"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 18:45:06"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:45:06"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:45:06"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:45:06"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 18:45:06"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:45:09"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:45:09"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:45:09"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-26 18:45:10"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:45:23"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-26 18:45:23"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-26 18:45:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:45:23"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:45:29"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 18:45:29"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:45:29"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:45:33"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 18:45:33"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:45:33"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:46:50"}
+{"label":"server.js","level":"info","message":"LOG: Delete(DELETE) a Blog Controller","metadata":{},"timestamp":"2022-01-26 18:46:50"}
+{"label":"server.js","level":"info","message":"LOG: removed likes from users ","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: removed comments from users ","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: Blog Deleted","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: Blog removed from User's blogs array","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: Comments deleted","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: Likes removed from User's likes array","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 18:46:51"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:53:57"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:53:57"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:53:57"}
+{"label":"server.js","level":"info","message":"LOG: Open New Blog page Controller","metadata":{},"timestamp":"2022-01-26 18:53:57"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:54:10"}
+{"label":"server.js","level":"info","message":"LOG: Create(POST) a New Blog Controller","metadata":{},"timestamp":"2022-01-26 18:54:10"}
+{"label":"server.js","level":"error","metadata":{},"timestamp":"2022-01-26 18:54:10"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:54:10"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:54:12"}
+{"label":"server.js","level":"info","message":"LOG: Like a Blog Controller","metadata":{},"timestamp":"2022-01-26 18:54:12"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:54:13"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:54:17"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 18:54:17"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:54:17"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:55:45"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 18:55:45"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 18:55:45"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Delete(DELETE) a Blog Controller","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: removed likes from users ","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: removed comments from users ","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Blog Deleted","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Blog removed from User's blogs array","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Comments deleted","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Likes removed from User's likes array","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 18:57:01"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 19:07:32"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 19:07:32"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 19:07:32"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 19:07:32"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 19:07:32"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 19:07:51"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 19:07:51"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 19:07:51"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 19:07:51"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 19:07:51"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 19:08:23"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 19:08:23"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 19:08:23"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 19:08:23"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 19:08:23"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:17:40"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:18:13"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:18:31"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 19:21:30"}
+{"label":"server.js","level":"info","message":"LOG: Create a New Comment Controller","metadata":{},"timestamp":"2022-01-26 19:21:30"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:21:30"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:41:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:42:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:42:52"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:43:58"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:44:18"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:44:50"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:47:35"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:48:27"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:48:32"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:49:26"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:49:57"}
+{"label":"server.js","level":"info","message":"LOG: Open a Blog to Read Controller","metadata":{},"timestamp":"2022-01-26 19:50:22"}
+{"label":"server.js","level":"info","message":"LOG: checkStatus Middleware","metadata":{},"timestamp":"2022-01-26 19:50:31"}
+{"label":"server.js","level":"info","message":"LOG: PrintRequest Middleware","metadata":{},"timestamp":"2022-01-26 19:50:31"}
+{"label":"server.js","level":"info","message":{"user":{"_id":"61ed28b9febc650f00dab877","email":"wonderwoman@test.com","name":"Diana Prince","role":0}},"metadata":{},"timestamp":"2022-01-26 19:50:31"}
+{"label":"server.js","level":"info","message":"LOG: Extracting token from Request","metadata":{},"timestamp":"2022-01-26 19:50:31"}
+{"label":"server.js","level":"info","message":"LOG: Main page","metadata":{},"timestamp":"2022-01-26 19:50:31"}

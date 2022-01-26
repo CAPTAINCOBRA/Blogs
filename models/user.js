@@ -48,6 +48,16 @@ var userSchema = new mongoose.Schema(
         ref: "Comment",
       },
     ],
+    // avatar: {
+    //   type: String,
+    //   default: "https://i.pravatar.cc/200",
+    // },
+    blogsLiked: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Blog",
+      },
+    ],
   },
   {
     timestamps: true,

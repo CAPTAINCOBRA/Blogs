@@ -47,6 +47,16 @@ const blogSchema = new mongoose.Schema({
       ref: "Comment",
     },
   ],
+  usersLiked: [
+    {
+      type: ObjectId,
+      ref: "User",
+    },
+  ],
+  likes: {
+    type: Number,
+    default: 0,
+  },
 });
 
 blogSchema.pre("validate", function (next) {

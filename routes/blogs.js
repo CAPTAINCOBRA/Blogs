@@ -40,6 +40,13 @@ router.get("/:slug", async (req, res) => {
   const comments = await Comment.find({ blogId: blog._id });
   if (blog == null) res.redirect("/");
 
+  // var isLiked = false;
+  if (blog.usersLiked.includes(user.user._id)) {
+    blog.isLiked = true;
+  } else {
+    blog.isLiked = false;
+  }
+
   res.render("blogs/show", {
     blog: blog,
     user: user.user,
@@ -75,7 +82,27 @@ router.put(
 //Delete a Blog
 router.delete("/:id", isSignedIn, async (req, res) => {
   logger.info("LOG: Delete(DELETE) a Blog Controller");
+
+  // Removing like from user for the deleted blog
+  const blogId = req.params.id;
+  const blogComments = await Comment.find({ blogId: blogId });
+  var usersLiked = await Blog.findById(blogId).populate("usersLiked");
+  usersLiked.usersLiked.forEach((user) => {
+    user.blogsLiked.pull(blogId);
+    user.save();
+  });
+  logger.info("LOG: removed likes from users ");
+  // delete all the comments that were made in this blog from users' comments array in the database and then delete the blog itself from the database itself
+  blogComments.forEach(async (comment) => {
+    const user = await User.findById(comment.userId);
+    user.comments.pull(comment._id);
+    user.save();
+    comment.remove();
+  });
+  logger.info("LOG: removed comments from users ");
+
   await Blog.findByIdAndDelete(req.params.id);
+  logger.info("LOG: Blog Deleted");
 
   //remove the blog from the user's blogs array
   await User.findByIdAndUpdate(
@@ -85,6 +112,32 @@ router.delete("/:id", isSignedIn, async (req, res) => {
     },
     (usefindAndModify = false)
   );
+  logger.info("LOG: Blog removed from User's blogs array");
+
+  // Removing the comments issue starts
+  // Remove the comments associated with the blog from the user's comments array in the database (if any) and remove the blogId field from the comments (if any)
+  // await User.updateMany(
+  //   { comments: { $in: req.params.id } },
+  //   { $pull: { comments: req.params.id } },
+  //   (usefindAndModify = false)
+  // );
+
+  // logger.info("LOG: Comments removed from User's comments array");
+
+  // Remove the comments on this blog from the database
+  await Comment.deleteMany({ blogId: req.params.id });
+  // Removing the comments issue ends
+  logger.info("LOG: Comments deleted");
+
+  // //Removing the likes issue starts
+  // // Remove the likes associated with the blog from the user's likes array in the database (if any)
+  // await User.updateMany(
+  //   { blogsLiked: { $in: req.params.id } },
+  //   { $pull: { blogsLiked: req.params.id } },
+  //   (usefindAndModify = false)
+  // );
+  // //Removing the likes issue ends
+  logger.info("LOG: Likes removed from User's likes array");
 
   res.redirect("/");
 });
@@ -125,5 +178,76 @@ function saveBlogAndRedirect(path) {
     }
   };
 }
+
+router.get("/:blogId/like_toggle", isSignedIn, async (req, res) => {
+  logger.info("LOG: Like a Blog Controller");
+  // res.send("Like a Blog");
+
+  const blog = await Blog.findById(req.params.blogId);
+  const user = JSON.parse(decodeURIComponent(req.cookies.user));
+
+  if (blog.usersLiked?.includes(user.user._id)) {
+    //Remove the user from the likes array
+    await Blog.findByIdAndUpdate(
+      req.params.blogId,
+      {
+        $pull: { usersLiked: user.user._id },
+        $set: { likes: blog.likes - 1 },
+      },
+      (usefindAndModify = false)
+    );
+  } else {
+    //Add the user to the likes array
+    await Blog.findByIdAndUpdate(
+      req.params.blogId,
+      {
+        $push: { usersLiked: user.user._id },
+        $set: { likes: blog.likes + 1 },
+      },
+      (usefindAndModify = false)
+    );
+  }
+
+  // if (blog.usersLiked?.length > 0) {
+  //   await Blog.findByIdAndUpdate(
+  //     req.params.blogId,
+  //     {
+  //       $set: { likes: blog.usersLiked.length },
+  //     },
+  //     (usefindAndModify = false)
+  //   );
+  // } else {
+  //   await Blog.findByIdAndUpdate(
+  //     req.params.blogId,
+  //     {
+  //       $set: { likes: 0 },
+  //     },
+  //     (usefindAndModify = false)
+  //   );
+  // }
+
+  console.log("req . auth is ", req.auth);
+  if (user.user.blogsLiked?.includes(req.params.blogId)) {
+    await User.findByIdAndUpdate(
+      req.auth._id,
+      {
+        $pull: { blogsLiked: req.params.blogId },
+      },
+      (usefindAndModify = false)
+    );
+  } else {
+    await User.findByIdAndUpdate(
+      req.auth._id,
+      {
+        $push: { blogsLiked: req.params.blogId },
+      },
+      (usefindAndModify = false)
+    );
+  }
+  // Final response if any to be returned here. Not returning anthing here
+  return res.redirect(`/blogs/${blog.slug}`);
+});
+
+// }))
 
 module.exports = router;
