@@ -12,6 +12,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="/js/inputScript.js" defer></script>
+    <!--For Search-->
   </head>
   <body>
     <script>
@@ -52,7 +54,37 @@
       </h1>
 
       <!-- <H5>Token - <%= token && token %></H5> -->
-      <a href="/blogs/new" class="btn btn-success" id="newBlog">New Blog</a>
+
+      <!-- Search Starts -->
+      <div class="row">
+        <div class="col">
+          <a href="/blogs/new" class="btn btn-success" id="newBlog">New Blog</a>
+        </div>
+
+        <!-- <div class="col"> -->
+        <div class="input-group col search-wrapper form-outline">
+          <input
+            type="search"
+            class="form-control rounded"
+            placeholder="Search by Title"
+            aria-label="Search"
+            aria-describedby="search-addon"
+            id="search"
+            data-search
+          />
+          <!-- <button type="button" class="btn btn-outline-primary">search</button> -->
+        </div>
+        <!-- </div> -->
+      </div>
+
+      <div
+        class="no-result-found display-4"
+        style="display: none; justify-content: center"
+      >
+        <img src="/images/not-found.png" alt="No Result Found!" />
+      </div>
+      <!-- Search ends -->
+
       <!-- <a class="btn btn-success" id="newBlog">New Blog</a> -->
       <% blogs.forEach(blog => { %>
 
@@ -66,7 +98,7 @@
           </div>
         </div>
         <div class="card-body">
-          <h1 class="card-title display-5"><%= blog.title %></h1>
+          <h1 class="card-title display-5 blogTitle"><%= blog.title %></h1>
           <div class="card-subtitle text-muted mb-2">
             <%= blog.createdAt.toLocaleDateString() %>
           </div>
