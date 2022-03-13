@@ -46,6 +46,13 @@
       >
     </nav>
 
+    <% console.log("Message - " + JSON.stringify(message)) %> <%
+    if(message.message){ %>
+    <div class="alert alert-success welcome" role="alert">
+      <%= message.message[0] %>
+    </div>
+    <% } %>
+
     <div class="container mt-4">
       <h1
         class="mb-4 nav navbar navbar-light bg-light display-3 justify-content-center"

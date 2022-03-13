@@ -22,6 +22,9 @@ const logger = require("./myLogger");
 // const myLogger = require("./myLogger");
 // const logger = myLogger();
 
+const session = require("express-session");
+const flash = require("connect-flash");
+
 mongoose.connect(process.env.DB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -37,6 +40,21 @@ app.use(cookieParser()); //Bug 1
 // app.use(bodyParser.json());
 app.use(express.static(__dirname + "/public")); //Bug 1
 console.log(__dirname);
+
+app.use(
+  session({
+    secret: "flashblog",
+    saveUninitialized: true,
+    resave: true,
+  })
+);
+
+app.use(flash());
+
+app.use(function (req, res, next) {
+  res.locals.message = req.flash();
+  next();
+});
 
 //To get all blogs on main page
 app.get("/", checkStatus, printRequest, isSignedIn, async (req, res) => {

@@ -15,20 +15,26 @@ exports.signup = (req, res) => {
   const errors = validationResult(req);
   // console.log("errors are logged here ", errors);
   if (!errors.isEmpty()) {
-    return res.status(422).json({
-      error: errors.array()[0].msg,
-    });
+    // return res.status(422).json({
+    //   error: errors.array()[0].msg,
+    // });
+    req.flash("message", errors.array()[0].msg);
+    return res.redirect("/auth/checkSignup");
   }
 
   const user = new User(req.body);
   // console.log("The value of user is: ", user);
   user.save((err, user) => {
     if (err) {
-      return res.status(400).json({
-        err: "Not able to save user in Database",
-      });
+      // return res.status(400).json({
+      //   err: "Not able to save user in Database",
+      // });
+      logger.error("LOG: Not able to save user in Database");
+      req.flash("message", "Not able to save user in Database");
+      return res.redirect("/auth/checkSignup");
     }
 
+    req.flash("success", "Sign up successfull!");
     return res.redirect("/auth/checkSignin");
   });
 };
@@ -43,22 +49,30 @@ exports.signin = (req, res) => {
   const errors = validationResult(req);
 
   if (!errors.isEmpty()) {
-    return res.status(422).json({
-      error: errors.array()[0].msg,
-    });
+    // return res.status(422).json({
+    //   error: errors.array()[0].msg,
+    // });
+    req.flash("message", errors.array()[0].msg);
+    return res.redirect("/auth/checkSignin");
   }
 
   User.findOne({ email }, (err, user) => {
     if (err || !user) {
-      return res.status(400).json({
-        error: "User email does not exist!",
-      });
+      // return res.status(400).json({
+      //   error: "User email does not exist!",
+      // });
+      logger.error("LOG: User email does not exist!" + user);
+      req.flash("message", "User Email does not exist!");
+      return res.redirect("/auth/checkSignin");
     }
+    logger.error("LOG: User email does  exist!");
 
     if (!user.authenticate(password)) {
-      return res.status(401).json({
-        error: "Email and Password don't match",
-      });
+      // return res.status(401).json({
+      //   error: "Email and Password don't match",
+      // });
+      req.flash("message", "Email and Password don't match!");
+      return res.redirect("/auth/checkSignin");
     }
 
     const token = jwt.sign({ _id: user._id }, process.env.SECRET);
@@ -71,6 +85,8 @@ exports.signin = (req, res) => {
     });
 
     // req.profile = user;
+    req.flash("message", "Signed in successfully!");
+    // logger.info("EKAN: - " + req.flash("message", "Welcome to Blog"));
     res.redirect("/");
   });
 };
