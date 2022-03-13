@@ -80,4 +80,4 @@ app.use("/comments", commentsRouter); //Bug 1
 
 // Redirecting to Sign in on trying to create a blog without logged in
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
