@@ -60,6 +60,8 @@
 
 // module.exports = myLogger;
 
+// ****************************************************************************************
+
 const winston = require("winston");
 const { format, transports } = winston;
 const path = require("path");
@@ -68,10 +70,13 @@ const logFormat = format.printf(
   (info) => `${info.timestamp} ${info.level} [${info.label}]: ${info.message}`
 );
 
+const CATEGORY = "winston custom format";
+
 const myLogger = winston.createLogger({
   level: process.env.NODE_ENV === "production" ? "info" : "debug",
   format: format.combine(
     // format.label({ label: path.basename(process.mainModule.filename) }), //Due to production error in Vercel
+    format.label({ label: CATEGORY }),
     format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
     // Format the metadata object
     format.metadata({ fillExcept: ["message", "level", "timestamp", "label"] })
