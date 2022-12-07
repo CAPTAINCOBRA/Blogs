@@ -71,7 +71,7 @@ const logFormat = format.printf(
 const myLogger = winston.createLogger({
   level: process.env.NODE_ENV === "production" ? "info" : "debug",
   format: format.combine(
-    format.label({ label: path.basename(process.mainModule.filename) }),
+    // format.label({ label: path.basename(process.mainModule.filename) }), //Due to production error in Vercel
     format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
     // Format the metadata object
     format.metadata({ fillExcept: ["message", "level", "timestamp", "label"] })
