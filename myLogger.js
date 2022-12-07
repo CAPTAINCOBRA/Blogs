@@ -86,7 +86,8 @@ const myLogger = winston.createLogger({
       format: format.combine(format.colorize(), logFormat),
     }),
     new transports.File({
-      filename: "logs/logas.log",
+      // filename: "logs/logas.log",
+      filename: "logas.log",
       format: format.combine(
         // Render in one line in your log file.
         // If you use prettyPrint() here it will be really
