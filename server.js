@@ -39,6 +39,8 @@ app.use(cors()); //Bug 1
 app.use(cookieParser()); //Bug 1
 // app.use(bodyParser.json());
 app.use(express.static(__dirname + "/public")); //Bug 1
+app.set("views", __dirname + "/views");
+
 console.log(__dirname);
 
 app.use(
